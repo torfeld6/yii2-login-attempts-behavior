@@ -17,7 +17,7 @@ class LoginAttemptBehavior extends Behavior
     public $usernameAttribute = 'username';
     public $passwordAttribute = 'password';
 
-    public $message = 'You have exceeded the password attempts.';
+    public $message = 'You have exceeded the number of allowed login attempts.';
 
     /** @var LoginAttempt */
     private $_attempt;
